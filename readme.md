@@ -69,7 +69,7 @@ preprocessed_dataset
 ### 5.1. training summary
 
 - 약 2만 2천장의 이미지로 30 epochs 학습하였고 6천장의 image를 validation으로 사용함
-![result](Face_object_detection\yolov7_size640_epochs30_batch4/results.png)
+![result](Face_object_detection/yolov7_size640_epochs30_batch4/results.png)
 
 - x 축은 epochs를 나타낸다.
 
