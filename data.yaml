@@ -1,0 +1,14 @@
+names:
+- face
+- leye_close
+- leye_open
+- reye_close
+- reye_open
+- mouth_close
+- mouth_open
+- cigar
+- phone
+nc: 9
+path: preprocessed_dataset
+train: preprocessed_dataset/train
+val: preprocessed_dataset/val
