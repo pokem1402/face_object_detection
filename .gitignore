@@ -35,6 +35,8 @@ Face_object_detection/yolov7_size640_epochs30_batch4/weights/**
 # mp4
 *.mp4
 
+ref_presentation
+
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
