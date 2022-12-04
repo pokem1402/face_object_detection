@@ -16,6 +16,8 @@ data
 preprocessed_dataset
 */preprocessed_dataset/*
 
+*.pptx
+
 # yolov7
 
 yolov7

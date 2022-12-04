@@ -151,6 +151,14 @@ pip install -qr ./yolov7/requirements.txt
 
 - [best.pt](https://drive.google.com/file/d/1r0bOTZMSbedLHN78KRZa6G2mcw_d6JEM/view?usp=sharing)
 
+- 만약 아래와 같은 문장을 출력하면서 실행이 안되는 경우
+```
+module 'brotli' has no attribute 'error'
+```
+ 아래의 문장을 실행하여 brotlipy 설치
+ 
+    conda install -c conda-forge brotlipy
+
 - 만약 실행 중에 아래와 같은 문제가 생기면 yolo v7 내부에 있는 loss.py 파일을 아래의 링크를 참조하여 수정한다.
 
   - Error fix : [Indices should be either on cpu or on the same device as the indexed tensor](https://stackoverflow.com/questions/74372636/indices-should-be-either-on-cpu-or-on-the-same-device-as-the-indexed-tensor)
