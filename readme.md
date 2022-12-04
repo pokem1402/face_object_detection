@@ -95,7 +95,7 @@ preprocessed_dataset
 - sunglass를 쓰고 있는 경우 선글라스에 반사된 빛의 유무에 따라 눈을 감고 뜨고 있다고 예측하는 문제가 존재한다.
 - 하지만 입이 개폐하는 것과 뜬 눈에 대해서는 잘 감지하는 것을 확인할 수 있다.
 
-### 5.3.2. with normal image
+### 5.3.2. with daytime image
 
 - 야간 상황을 상정한 데이터를 학습하였으나 우리가 원하는 target object인 눈 및 추가적으로 입에 대해서는 boundary box 및 classification이 잘 이루어지는 것을 확인할 수 있음
 ![test_image1](runs/detect/exp/image1.jpg)
